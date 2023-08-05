@@ -1,0 +1,76 @@
+/* * {
+    border: 1px solid black;
+} */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 6fr;
+    gap: 4px;
+    width: 95vw;
+    height: 95vh;
+
+    text-align: center;
+}
+
+.header {
+    grid-column: 2 / 6;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.sidebar {
+    grid-row: 1 / 6;
+    display: grid;
+    gap: 30px;
+
+    background-color:  #0ca9e7;
+    color: white;
+}
+
+input {
+    height: 12px;
+}
+
+.main-content {
+    grid-area: main-content;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: min-content 1fr;
+    grid-template-areas: 'projects announcements' 'projects trending';
+    overflow: auto;
+}
+
+.projects {
+    grid-area: projects;
+}
+
+.projects .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 250px;
+    gap: 6px;
+}
+
+.projects .card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 12px;
+}
+
+.announcement {
+    grid-area: announcements;
+}
+
+.trending {
+    grid-area: trending;
+}
+
+.trend {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;   
+}
+
