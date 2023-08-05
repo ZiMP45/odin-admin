@@ -16,7 +16,6 @@
 .header {
     grid-column: 2 / 6;
     display: grid;
-    grid-template-columns: 1fr 2fr;
 }
 
 .sidebar {
@@ -39,6 +38,7 @@ input {
     grid-template-rows: min-content 1fr;
     grid-template-areas: 'projects announcements' 'projects trending';
     overflow: auto;
+    background-color: darkgrey;
 }
 
 .projects {
