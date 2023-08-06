@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid black;
-}
+} */
 
 .container {
     display: grid;
@@ -39,7 +39,7 @@
     margin: 12px;
 }
 
-.projects h3 {
+.projects h2 {
     margin-left: 30px;
 }
 
@@ -48,6 +48,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 50% 50%;
     align-content: space-evenly;
+    justify-content: center;
 }
 
 .cards {
@@ -71,10 +72,47 @@ ul {
     list-style-type: none;
 }
 
-h3 {
+h2 {
     font-weight: bold;
 }
 
-.trending li {
-    font-weight: lighter;
+.trending {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid darkgray;
+    border-radius: 18px;
 }
+
+.trending div {
+    display: grid;
+    grid-template-columns: min-content 2fr;
+    position: relative;
+    width: 250px;
+}
+
+.trending img {
+    display: flex;
+    height: 52px;
+    width: auto;
+}
+
+.trending h4 {
+    position: absolute;
+    top: -22px;
+    left: 18px;
+}
+
+.trending p {
+    position: absolute;
+    top: 16px;
+    left: 18px;
+}
+
+.avatar {
+    min-width: fit-content;
+    margin-bottom: 12px;
+    padding: 20px;
+}
+ 
