@@ -79,7 +79,7 @@ h2 {
 .trending {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     border: 1px solid darkgray;
     border-radius: 18px;
