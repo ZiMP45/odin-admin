@@ -1,6 +1,6 @@
-/* * {
+* {
     border: 1px solid black;
-} */
+}
 
 .container {
     display: grid;
@@ -36,8 +36,8 @@
 }
 
 #search {
-    height: 20px;
-    margin-left: 80px;
+    height: 28px;
+    margin-left: 50px;
 }
 
 .right-header #logo {
@@ -69,6 +69,7 @@
 
 .right-header h3 {
     text-align: center;
+    margin-right: 12px;
 }
 
 input {
