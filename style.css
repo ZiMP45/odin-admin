@@ -77,8 +77,9 @@
 
 .announcements {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, minmax(50%, 1fr));
+    row-gap: 20px;
     align-content: space-evenly;
     justify-content: center;
 }
