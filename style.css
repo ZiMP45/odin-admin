@@ -55,8 +55,8 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(250px, 350px));
     grid-template-rows: repeat(3, minmax(250px, 350px));
-    gap: 30px;
-    margin: 0 30px 0 30px;
+    gap: 50px;
+    margin-left: 30px;
 }
 
 .card {
