@@ -213,6 +213,15 @@ ul {
     padding-right: 30px;
 }
 
+.announcement p {
+    border-bottom: 1px solid black; 
+    padding-bottom: 18px;
+}
+
+.announcement p:last-child {
+    border-bottom: none;
+}
+
 h2 {
     font-weight: bold;
 }
