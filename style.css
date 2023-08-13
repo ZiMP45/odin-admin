@@ -174,8 +174,10 @@ button:hover {
     color: white;
 }
 
-.sidebar h1 {
+.sidebar .dashboard {
     font-size: 40px;
+    text-decoration: none;
+    color: white;
 }
 
 .sidebar div {
@@ -223,7 +225,7 @@ button:hover {
     flex-direction: row;
     align-items: center;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 svg:hover > path {
