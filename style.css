@@ -1,5 +1,6 @@
 * {
-    font-family: 'Roboto Condensed', sans-serif;;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* border: 1px solid black; */
 }
 
 :root {
@@ -46,7 +47,6 @@
 .right-header svg{
     height: 35px;
     width: 35px;
-    margin-left: 12px;
 }
 
 .search {
@@ -66,14 +66,9 @@
 
 .top .right-header {
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 4fr;
     align-items: center;
     justify-content: space-around;
-}
-
-.right-header svg {
-    position: relative;
-    left: 60px;
 }
 
 .right-header svg:hover {
@@ -127,6 +122,10 @@ input {
     margin-right: 12px;
 }
 
+.bottom h3 {
+    font-size: 24px;
+}
+
 .name p {
     position: relative;
     top: 10px;
@@ -157,6 +156,10 @@ input {
     background-color: var(--darkest);
     color: white;
     border: 3px solid var(--darker);
+}
+
+button:hover {
+    border: 2px solid var(--gold);
 }
 
 /* sidebar styling */
