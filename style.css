@@ -3,7 +3,7 @@
 }
 
 :root {
-    --darkest: #1F281E;
+    --darkest: #496246;
     --darker: #23252D;
     --dark: #2B2D35;
     --medium: #3A3C44;
@@ -31,9 +31,9 @@
     grid-template-rows: 2fr 3fr;
     align-items: center;
 
-    background-color: var(--medium);
+    background-color: white;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.55);
-    color: white;
+    color: var(--dark);
 }
 
 .top {
@@ -242,6 +242,7 @@ svg:hover #icons{
     display: grid;
     grid-area: main-content;
     grid-template-columns: 2fr 1fr;
+    background-color: var(--darker);
 }
 
 .projects h2,
@@ -274,7 +275,7 @@ svg:hover #icons{
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(2, minmax(250px, 350px));
+    grid-template-columns: repeat(2, minmax(350px, 450px));
     grid-template-rows: repeat(3, minmax(350px, 450px));
     gap: 30px;
     margin: 0px 24px 0px 30px;
@@ -288,11 +289,14 @@ svg:hover #icons{
     padding: 18px;
     cursor: pointer;
 
-    border: 1px solid darkgrey;
+    border: 1px solid var(--darkest);
     border-radius: 16px;
     background: linear-gradient(170deg, var(--light) 0%, var(--darker) 100%);
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.55);
     color: white;
+
+    box-shadow: inset 0px -20px 5px -10px var(--darkest);
+    box-sizing: border-box;
 }
 
 .card h4,
