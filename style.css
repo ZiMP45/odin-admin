@@ -1,6 +1,5 @@
 * {
     font-family: 'Roboto Condensed', sans-serif;
-    /* border: 1px solid black; */
 }
 
 :root {
@@ -152,10 +151,11 @@ input {
 .bottom button {
     width: 150px;
     height: 30px;
-    border-radius: 50px;
+
     background-color: var(--darkest);
     color: white;
     border: 3px solid var(--darker);
+    border-radius: 50px;
 }
 
 button:hover {
@@ -166,11 +166,12 @@ button:hover {
 
 .sidebar {
     grid-area: sidebar;
-    background-color: var(--medium);
-    color: white;
     display: grid;
     grid-template-rows: 1fr 4fr 7fr;
     padding: 0px 20px 0px 20px;
+
+    background-color: var(--medium);
+    color: white;
 }
 
 .sidebar h1 {
@@ -239,26 +240,21 @@ svg:hover #icons{
     grid-template-columns: 2fr 1fr;
 }
 
-.projects h2 {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    padding: 10px;
-    background-color: white;
-    width: 300px;
-    border-radius: 12px;
-}
-
+.projects h2,
 .announcement h2 {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     padding: 10px;
-    background-color: white;
-    width: 200px;
+    width: 300px;
+
     border-radius: 12px;
+    background-color: white;
+}
+
+.announcement h2 {
+    width: 200px;
 }
 
 .announcements {
@@ -281,19 +277,22 @@ svg:hover #icons{
     justify-content: space-evenly;
 }
 
-.card {
+.card, 
+.trending {
     display: flex;
     flex-direction: column;
+    padding: 18px;
+    cursor: pointer;
+
     border: 1px solid darkgrey;
     border-radius: 16px;
-    padding: 18px;
     background: linear-gradient(170deg, var(--light) 0%, var(--darker) 100%);
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.55);
-    cursor: pointer;
     color: white;
 }
 
-.card h4 {
+.card h4,
+.announcement li {
     font-size: 22px;
 }
 
@@ -311,39 +310,23 @@ svg:hover #icons{
 }
 
 ul {
-    margin-right: 20px;
     list-style-type: none;
+    margin-right: 20px;
     padding-right: 30px;
 }
 
-.announcement li {
-    font-size: 20px;
-}
-
 .announcement p {
-    border-bottom: 1px solid black; 
     padding-bottom: 18px;
+    border-bottom: 1px solid black; 
 }
 
 .announcement p:last-child {
     border-bottom: none;
 }
 
-h2 {
-    font-weight: bold;
-}
-
 .trending {
-    display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    border: 1px solid darkgray;
-    border-radius: 18px;
-    background: linear-gradient(170deg, var(--light) 0%, var(--darker) 100%);
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.55);
-    cursor: pointer;
-    color: white;
 }
 
 .trending div {
