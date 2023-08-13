@@ -167,7 +167,6 @@ input {
     flex-direction: column;
     justify-content: flex-start;
     flex: 1;
-    border-bottom: 1px solid black;
 }
 
 .dashboard {
