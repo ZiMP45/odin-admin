@@ -1,6 +1,6 @@
-/* * {
-    border: 1px solid black;
-} */
+* {
+    font-family: 'Roboto Condensed', sans-serif;;
+}
 
 :root {
     --darkest: #1F281E;
@@ -32,6 +32,7 @@
     align-items: center;
 
     background-color: var(--medium);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.55);
     color: white;
 }
 
@@ -166,7 +167,15 @@ input {
     color: white;
     display: grid;
     grid-template-rows: 1fr 4fr 7fr;
-    padding: 0px 60px 0px 30px;
+    padding: 0px 20px 0px 20px;
+}
+
+.sidebar h1 {
+    font-size: 40px;
+}
+
+.sidebar div {
+    font-size: 20px;
 }
 
 .sidebar .links,
@@ -263,7 +272,7 @@ svg:hover #icons{
 .cards {
     display: grid;
     grid-template-columns: repeat(2, minmax(250px, 350px));
-    grid-template-rows: repeat(3, minmax(250px, 350px));
+    grid-template-rows: repeat(3, minmax(350px, 450px));
     gap: 30px;
     margin: 0px 24px 0px 30px;
     justify-content: space-evenly;
@@ -278,6 +287,18 @@ svg:hover #icons{
     background: linear-gradient(170deg, var(--light) 0%, var(--darker) 100%);
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.55);
     cursor: pointer;
+    color: white;
+}
+
+.card h4 {
+    font-size: 22px;
+}
+
+.projects h2, 
+.announcement h2,
+.trending h2 {
+    font-size: 32px;
+    text-decoration: underline;
 }
 
 .card:hover,
@@ -290,6 +311,10 @@ ul {
     margin-right: 20px;
     list-style-type: none;
     padding-right: 30px;
+}
+
+.announcement li {
+    font-size: 20px;
 }
 
 .announcement p {
@@ -315,6 +340,7 @@ h2 {
     background: linear-gradient(170deg, var(--light) 0%, var(--darker) 100%);
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.55);
     cursor: pointer;
+    color: white;
 }
 
 .trending div {
