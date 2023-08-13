@@ -109,7 +109,9 @@ input {
 
 .bottom {
     display: grid;
-    grid-template-columns: 1fr 3fr 3fr;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+    justify-content: center;
 }
 
 .title {
@@ -132,6 +134,12 @@ input {
 .name h3 {
     position: relative;
     top: -8px;
+}
+
+.bottom .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .bottom > .buttons {
@@ -268,7 +276,7 @@ svg:hover #icons{
     border-radius: 16px;
     padding: 18px;
     background: linear-gradient(170deg, var(--light) 0%, var(--darker) 100%);
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.55);
     cursor: pointer;
 }
 
@@ -305,7 +313,7 @@ h2 {
     border: 1px solid darkgray;
     border-radius: 18px;
     background: linear-gradient(170deg, var(--light) 0%, var(--darker) 100%);
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.55);
     cursor: pointer;
 }
 
