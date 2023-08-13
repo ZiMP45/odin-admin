@@ -1,9 +1,10 @@
 * {
     font-family: 'Roboto Condensed', sans-serif;
+    /* border: 1px solid black; */
 }
 
 :root {
-    --darkest: #496246;
+    --darkest: #3f543c;
     --darker: #23252D;
     --dark: #2B2D35;
     --medium: #3A3C44;
@@ -243,6 +244,7 @@ svg:hover #icons{
     grid-area: main-content;
     grid-template-columns: 2fr 1fr;
     background-color: var(--darker);
+    padding-bottom: 32px;
 }
 
 .projects h2,
@@ -252,14 +254,12 @@ svg:hover #icons{
     transform: translateX(-50%);
     text-align: center;
     padding: 10px;
-    width: 300px;
+    width: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
 
     border-radius: 12px;
     background-color: white;
-}
-
-.announcement h2 {
-    width: 200px;
 }
 
 .announcements {
