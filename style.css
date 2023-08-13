@@ -15,7 +15,7 @@
 .container {
     display: grid;
     grid-template-areas: 
-        "header header header"
+        "sidebar header header"
         "sidebar main-content main-content"
         "sidebar main-content main-content";
 
@@ -267,7 +267,15 @@ svg:hover #icons{
     border: 1px solid darkgrey;
     border-radius: 16px;
     padding: 18px;
-    background-color: white;
+    background: linear-gradient(170deg, var(--light) 0%, var(--darker) 100%);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+    cursor: pointer;
+}
+
+.card:hover,
+.trending:hover {
+    transform: scale(0.95);
+    border: 2px solid var(--gold);
 }
 
 ul {
@@ -296,7 +304,9 @@ h2 {
     align-items: center;
     border: 1px solid darkgray;
     border-radius: 18px;
-    background-color: white;
+    background: linear-gradient(170deg, var(--light) 0%, var(--darker) 100%);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+    cursor: pointer;
 }
 
 .trending div {
