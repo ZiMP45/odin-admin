@@ -8,66 +8,38 @@
 </head>
 <body>
     <div class="container">
-
-        <div class="sidebar">
-            <div class="dashboard">
-                <img src="/images/dashboard.svg" alt="dashboard">
-                <h1>Dashboard</h1>
-            </div>
-            <div class="links">
-                <div class="link">
-                    <img src="/images/home.svg" alt="home">
-                    <div>Home</div>
-                </div>
-                <div class="link">
-                    <img src="/images/profile.svg" alt="profile">
-                    <div>Profile</div>
-                </div>
-                <div class="link">
-                    <img src="/images/message.svg" alt="messages">
-                    <div>Messages</div>
-                </div>
-                <div class="link">
-                    <img src="/images/history.svg" alt="history">
-                    <div>History</div>
-                </div>
-                <div class="link">
-                    <img src="/images/tasks.svg" alt="tasks">
-                    <div>Tasks</div>
-                </div>
-                <div class="link">
-                    <img src="/images/playbag.svg" alt="">
-                    <div>Community</div>
-                </div>
-            </div>
-            <div class="help">
-                <div class="link">
-                    <img src="/images/settings.svg" alt="settings">
-                    <div>Settings</div>
-                </div>
-                <div class="link">
-                    <img src="/images/help.svg" alt="support">
-                    <div>Support</div>
-                </div>
-                <div class="link">
-                    <img src="/images/privacy.svg" alt="privacy">
-                    <div>Privacy</div>
-                </div>
-            </div>
-        </div>
         <div class="header">
             <div class="top">
                 <div class="left-header">
-                    <img src="/images/search.svg" alt="search" id="search">
+                    <svg class="search" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
                     <input type="text" placeholder="Search...">
                 </div>
                 <div class="right-header">
-                    <img src="/images/notification.svg" alt="notification" id="notification">
+                    <svg viewBox="-1.5 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+                        <title>notification_bell [#1394]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs>
+                    
+                    </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Dribbble-Light-Preview" transform="translate(-301.000000, -720.000000)" fill="#000000">
+                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                    <path d="M257.75,574 L249.25,574 L249.25,568 C249.25,565.334 251.375,564 253.498937,564 L253.501063,564 C255.625,564 257.75,565.334 257.75,568 L257.75,574 Z M254.5625,577 C254.5625,577.552 254.0865,578 253.5,578 C252.9135,578 252.4375,577.552 252.4375,577 L252.4375,576 L254.5625,576 L254.5625,577 Z M259.875,574 L259.875,568 C259.875,564.447 257.359,562.475 254.5625,562.079 L254.5625,560 L252.4375,560 L252.4375,562.079 C249.641,562.475 247.125,564.447 247.125,568 L247.125,574 L245,574 L245,576 L250.3125,576 L250.3125,577 C250.3125,578.657 251.739437,580 253.5,580 C255.260563,580 256.6875,578.657 256.6875,577 L256.6875,576 L262,576 L262,574 L259.875,574 Z" id="notification_bell-[#1394]">
+                    
+                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
                     <img src="/images/logo.svg" alt="logo" id="logo">
                     <h3>Morgan Oakley</h3>
                 </div>
             </div>
             <div class="bottom">
+            <div class="open"></div>
                 <div class="title">
                     <img src="/images/logo.svg" alt="logo">
                     <div class="name">
@@ -79,6 +51,193 @@
                     <button>New</button>
                     <button>Upload</button>
                     <button>Share</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="dashboard">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 12C13 11.4477 13.4477 11 14 11H19C19.5523 11 20 11.4477 20 12V19C20 19.5523 19.5523 20 19 20H14C13.4477 20 13 19.5523 13 19V12Z" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M4 5C4 4.44772 4.44772 4 5 4H9C9.55228 4 10 4.44772 10 5V12C10 12.5523 9.55228 13 9 13H5C4.44772 13 4 12.5523 4 12V5Z" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M4 17C4 16.4477 4.44772 16 5 16H9C9.55228 16 10 16.4477 10 17V19C10 19.5523 9.55228 20 9 20H5C4.44772 20 4 19.5523 4 19V17Z" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M13 5C13 4.44772 13.4477 4 14 4H19C19.5523 4 20 4.44772 20 5V7C20 7.55228 19.5523 8 19 8H14C13.4477 8 13 7.55228 13 7V5Z" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                <h1>Dashboard</h1>
+            </div>
+            <div class="links">
+                <div class="link">
+                    <svg viewBox="0 -0.5 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+                        <title>home [#1391]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs>
+                    
+                    </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Dribbble-Light-Preview" transform="translate(-419.000000, -720.000000)" fill="#000000">
+                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                    <path d="M379.79996,578 L376.649968,578 L376.649968,574 L370.349983,574 L370.349983,578 L367.19999,578 L367.19999,568.813 L373.489475,562.823 L379.79996,568.832 L379.79996,578 Z M381.899955,568.004 L381.899955,568 L381.899955,568 L373.502075,560 L363,569.992 L364.481546,571.406 L365.099995,570.813 L365.099995,580 L372.449978,580 L372.449978,576 L374.549973,576 L374.549973,580 L381.899955,580 L381.899955,579.997 L381.899955,570.832 L382.514204,571.416 L384.001,570.002 L381.899955,568.004 Z" id="home-[#1391]">
+
+                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <div>Home</div>
+                </div>
+                <div class="link">
+                    <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+                        <title>profile_image [#1349]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs>
+                    
+                    </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Dribbble-Light-Preview" transform="translate(-260.000000, -2119.000000)" fill="#000000">
+                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                    <path d="M222,1977 L221.963,1977 C222.115,1974.097 220.291,1970.769 216.995,1969.422 C217.594,1968.723 217.969,1967.813 217.969,1966.821 C217.969,1964.611 216.178,1962.814 213.969,1962.814 C211.76,1962.814 209.969,1964.602 209.969,1966.811 C209.969,1967.804 210.351,1968.699 210.95,1969.398 C208.133,1970.548 206,1973.252 206,1976.449 L206,1961 L222,1961 L222,1977 Z M211.969,1966.808 C211.969,1965.705 212.866,1964.808 213.969,1964.808 C215.072,1964.808 215.969,1965.705 215.969,1966.808 C215.969,1967.896 215.094,1968.781 214.011,1968.804 C213.997,1968.804 213.983,1968.802 213.969,1968.802 C213.954,1968.802 213.941,1968.804 213.926,1968.804 C212.844,1968.781 211.969,1967.896 211.969,1966.808 L211.969,1966.808 Z M219.963,1977 L207.975,1977 C207.974,1977 207.969,1976.885 207.969,1976.844 C207.969,1973.683 210.463,1970.87 214.011,1970.81 C217.3,1970.833 219.969,1973.55 219.969,1976.844 C219.969,1976.885 219.964,1977 219.963,1977 L219.963,1977 Z M204,1979 L224,1979 L224,1959 L204,1959 L204,1979 Z" id="profile_image-[#1349]">
+
+                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <div>Profile</div>
+                </div>
+                <div class="link">
+                    <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+                        <title>message [#1576]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs>
+                    
+                    </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -919.000000)" fill="#000000">
+                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                    <path d="M144,759 L124,759 L124,776 L131.046,776 C131.847,777.504 132.39,779.001 134.079,779.001 C135.861,779.001 136.154,777.779 137.116,776 L144,776 L144,759 Z M142,761 L142,774 L136.064,774 C135.333,775.362 135.663,774.792 134.445,776.805 C134.337,776.967 134.187,777.032 134.079,777.032 C133.973,777.032 133.824,777.013 133.716,776.854 C133.16,776.04 133.479,776.583 132.109,774 L126,774 L126,761 L142,761 L142,761 Z" id="message-[#1576]">
+                    
+                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <div>Messages</div>
+                </div>
+                <div class="link">
+                    <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+                        <title>clock [#1315]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs>
+                    
+                    </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -2319.000000)" fill="#000000">
+                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                    <path d="M302,2169 C302,2164.589 298.411,2161 294,2161 C289.589,2161 286,2164.589 286,2169 C286,2173.411 289.589,2177 294,2177 C298.411,2177 302,2173.411 302,2169 M304,2169 C304,2174.523 299.523,2179 294,2179 C288.477,2179 284,2174.523 284,2169 C284,2163.477 288.477,2159 294,2159 C299.523,2159 304,2163.477 304,2169 M300,2170 C300,2170.552 299.552,2171 299,2171 L295,2171 C293.895,2171 293,2170.105 293,2169 L293,2164 C293,2163.448 293.448,2163 294,2163 C294.552,2163 295,2163.448 295,2164 L295,2168 C295,2168.55 295.45,2169 296,2169 L299,2169 C299.552,2169 300,2169.448 300,2170" id="clock-[#1315]">
+                    
+                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <div>History</div>
+                </div>
+                <div class="link">
+                    <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 5H7C5.89543 5 5 5.89543 5 7V19C5 20.1046 5.89543 21 7 21H17C18.1046 21 19 20.1046 19 19V7C19 5.89543 18.1046 5 17 5H15" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 12H15" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 16H15" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9 5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V7H9V5Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="9" cy="12" r="1" fill="#000000"/>
+                        <circle cx="9" cy="16" r="1" fill="#000000"/>
+                        </svg>
+                    <div>Tasks</div>
+                </div>
+                <div class="link">
+                    <svg width="800px" height="800px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+                        <title>bag_play_round [#1126]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs>
+                    
+                    </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -3159.000000)" fill="#000000">
+                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                    <path d="M136.760448,3011.573 C137.079448,3011.768 137.079448,3012.231 136.760448,3012.426 L132.760448,3014.925 C132.427448,3015.129 131.999448,3014.889 131.999448,3014.499 L131.999448,3009.5 C131.999448,3009.11 132.427448,3008.87 132.760448,3009.074 L136.760448,3011.573 Z M140.846448,3017 L127.153448,3017 C126.544448,3017 126.077448,3016.461 126.163448,3015.858 C127.491448,3006.557 126.907448,3007 128.999448,3007 C128.999448,3008.639 128.751448,3010 129.999448,3010 C130.552448,3010 130.999448,3009.552 130.999448,3009 L130.999448,3007 L136.999448,3007 L136.999448,3009 C136.999448,3009.552 137.447448,3010 137.999448,3010 C138.552448,3010 138.999448,3009.552 138.999448,3009 L138.999448,3007 C139.836448,3007 140.562448,3006.94 140.693448,3007.858 L141.836448,3015.858 C141.922448,3016.461 141.454448,3017 140.846448,3017 L140.846448,3017 Z M130.999448,3004 C130.999448,3002.345 132.345448,3001 133.999448,3001 C135.654448,3001 136.999448,3002 136.999448,3004 L136.999448,3005 L130.999448,3005 L130.999448,3004 Z M143.979448,3016.717 L142.550448,3006.717 C142.267448,3004.733 140.235448,3005 138.999448,3005 L138.999448,3004 C138.999448,3001 136.756448,2999 133.999448,2999 C131.242448,2999 128.999448,3001.243 128.999448,3004 L128.999448,3005 L127.734448,3005 C126.739448,3005 125.589448,3005.732 125.448448,3006.717 L124.020448,3016.717 C123.848448,3017.922 124.783448,3019 126.000448,3019 L141.999448,3019 C143.216448,3019 144.151448,3017.922 143.979448,3016.717 L143.979448,3016.717 Z" id="bag_play_round-[#1126]">
+                    
+                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <div>Community</div>
+                </div>
+            </div>
+            <div class="help">
+                <div class="link">
+                    <svg width="800px" height="800px" viewBox="0 -0.5 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+                        <title>option_bar_settings [#1400]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs>
+                    
+                    </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Dribbble-Light-Preview" transform="translate(-59.000000, -720.000000)" fill="#000000">
+                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                    <path d="M21.9,574 L21.9,560 L19.8,560 L19.8,574 L17.7,574 L17.7,576 L19.8,576 L19.8,580 L21.9,580 L21.9,576 L24,576 L24,574 L21.9,574 Z M14.55,560 L12.45,560 L12.45,569 L10.35,569 L10.35,571 L12.45,571 L12.45,580 L14.55,580 L14.55,571 L16.65,571 L16.65,569 L14.55,569 L14.55,560 Z M7.2,574 L9.3,574 L9.3,576 L7.2,576 L7.2,580 L5.1,580 L5.1,576 L3,576 L3,574 L5.1,574 L5.1,560 L7.2,560 L7.2,574 Z" id="option_bar_settings-[#1400]">
+
+                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <div>Settings</div>
+                </div>
+                <div class="link">
+                    <svg width="800px" height="800px" viewBox="0 -0.5 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+                        <title>question [#1444]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs>
+                    
+                    </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Dribbble-Light-Preview" transform="translate(-299.000000, -520.000000)" fill="#000000">
+                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                    <path d="M253.2669,374.512 C253.2669,375.064 252.7965,375.512 252.2169,375.512 C251.6373,375.512 251.1669,375.064 251.1669,374.512 C251.1669,373.96 251.6373,373.512 252.2169,373.512 C252.7965,373.512 253.2669,373.96 253.2669,374.512 L253.2669,374.512 Z M249.0669,365 C249.0669,364.448 249.5373,364 250.1169,364 L256.1124,364 C256.98915,364 257.7,364.677 257.7,365.512 L257.7,368 C257.7,369.1 256.755,370 255.6,370 L254.03445,370 C253.7394,370 253.5,370.228 253.5,370.509 L253.5,371.512 C253.5,372.064 253.03065,372.512 252.45,372.512 C251.8704,372.512 251.4,372.064 251.4,371.512 L251.4,369.778 C251.4,368.796 252.2358,368 253.2669,368 L254.3169,368 C254.8965,368 255.3669,367.552 255.3669,367 C255.3669,366.448 254.8965,366 254.3169,366 L250.1169,366 C249.5373,366 249.0669,365.552 249.0669,365 L249.0669,365 Z M245.1,378 L261.9,378 L261.9,362 L245.1,362 L245.1,378 Z M243,380 L264,380 L264,360 L243,360 L243,380 Z" id="question-[#1444]">
+                    
+                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <div>Support</div>
+                </div>
+                <div class="link">
+                    <svg width="800px" height="800px" viewBox="-3 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+                        <title>lock_close_plus [#713]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs>
+                    
+                    </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Dribbble-Light-Preview" transform="translate(-263.000000, -5039.000000)" fill="#000000">
+                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                    <path d="M213,4893 L211,4893 L211,4891 L213,4891 L215,4891 L217,4891 L217,4893 L215,4893 L213,4893 Z M209,4897 L219,4897 L219,4887 L209,4887 L209,4897 Z M212,4883 C212,4881.897 212.897,4881 214,4881 C215.103,4881 216,4882 216,4883 L216,4885 L212,4885 L212,4883 Z M218,4885 L218,4883 C218,4881 216.209,4879 214,4879 C211.791,4879 210,4880.791 210,4883 L210,4885 L207,4885 L207,4899 L221,4899 L221,4885 L218,4885 Z" id="lock_close_plus-[#713]">
+                    
+                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <div>Privacy</div>
                 </div>
             </div>
         </div>
